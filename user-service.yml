@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:'{ciper}90d8b0c1621195c74b9534ba6aada5e91f769fbde055c1859b8182c9aac3110c'
+
+token:
+  expiration_time: 86400000
+  secret: user_token_dev_changed
+
+gateway:
+  ip: 192.168.0.7
